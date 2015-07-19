@@ -122,3 +122,9 @@ body{
   font-size:60px;
   text-shadow:4px 4px 5px rgba(0,0,0,0.9);
 }
+
+@media screen and (max-width:768px){
+  div {
+    font-size: 20px;
+  }
+}
