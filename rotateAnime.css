@@ -125,6 +125,34 @@ body{
 
 @media screen and (max-width:768px){
   .cube_top>div, .cube_bottom div, .cube_front div, .cube_back>div{
-    font-size: 12px;
+    font-size: 20px;
+  }
+  .cube div {
+      position: absolute;
+      text-align: center;
+  }
+  .cube_front div{
+    display:none;
+    margin-top:50px;
+    margin-left:20px;
+    text-align:left;
+    text-shadow:4px 4px 5px rgba(0,0,0,0.9);
+  }
+  .cube_bottom div{
+    margin-top:400px;
+    margin-right:50px;
+    text-align:right;
+    text-shadow:4px 4px 5px rgba(0,0,0,0.9);
+  }
+  .cube_back>div{
+    margin-top:50px;
+    color:#a55;
+    text-shadow:4px 4px 5px rgba(0,0,0,0.9);
+  }
+  .cube_top>div{
+    margin-top:50px;
+    margin-left:20px;
+    text-align:left;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.9);
   }
 }
