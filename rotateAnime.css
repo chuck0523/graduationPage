@@ -125,6 +125,6 @@ body{
 
 @media screen and (max-width:768px){
   .cube_top>div, .cube_bottom div, .cube_front div, .cube_back>div{
-    font-size: 20px;
+    font-size: 12px;
   }
 }
